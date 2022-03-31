@@ -1,0 +1,22 @@
+﻿  pch.cpp
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerEmployeeForm.h(601,21): warning C4101: 'errordate': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerEmployeeForm.h(654,21): warning C4101: 'errordate': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\DeleteUserForm.h(261,24): warning C4101: 'ex': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\DeleteUserForm.h(278,21): warning C4101: 'nodbconnected': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\CreateUserForm.h(523,22): warning C4101: 'errorsameid': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\CreateUserForm.h(530,21): warning C4101: 'errormessage': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerForm.h(305,22): warning C4101: 'notconnectedtodb': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerForm.h(341,21): warning C4101: 'notconnected': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\SignInForm.h(277,21): warning C4101: 'errormessageloading': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\SignInForm.h(354,21): warning C4101: 'specialcredentials': unreferenced local variable
+  AssemblyInfo.cpp
+  CreateUserForm.cpp
+  DeleteUserForm.cpp
+  ITCfinals.cpp
+  SignInForm.cpp
+  WorkerEmployeeForm.cpp
+  WorkerForm.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ITCfinals.vcxproj -> C:\Users\ADMIN\source\repos\ITCfinals\x64\Release\SysComm.exe

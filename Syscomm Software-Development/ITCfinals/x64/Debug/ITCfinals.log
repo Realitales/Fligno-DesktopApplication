@@ -1,0 +1,22 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ITCfinals.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerEmployeeForm.h(601,21): warning C4101: 'errordate': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerEmployeeForm.h(654,21): warning C4101: 'errordate': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\DeleteUserForm.h(261,24): warning C4101: 'ex': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\DeleteUserForm.h(278,21): warning C4101: 'nodbconnected': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\CreateUserForm.h(523,22): warning C4101: 'errorsameid': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\CreateUserForm.h(530,21): warning C4101: 'errormessage': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerForm.h(305,22): warning C4101: 'notconnectedtodb': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\WorkerForm.h(341,21): warning C4101: 'notconnected': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\SignInForm.h(277,21): warning C4101: 'errormessageloading': unreferenced local variable
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\SignInForm.h(354,21): warning C4101: 'specialcredentials': unreferenced local variable
+  AssemblyInfo.cpp
+  CreateUserForm.cpp
+  DeleteUserForm.cpp
+  ITCfinals.cpp
+  SignInForm.cpp
+  WorkerEmployeeForm.cpp
+  WorkerForm.cpp
+  Generating Code...
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ITCfinals.vcxproj -> C:\Users\ADMIN\source\repos\ITCfinals\x64\Debug\SysComm.exe

@@ -1,0 +1,23 @@
+11/30/2021 - 10:44 PM
+
+Started project comprog finals
+*Multiple Forms
+*Login Validation
+*CEO Components
+
+12/1/2021 - 3:21 AM
+*Multiple forms done
+*Precompiled each forms
+*Database Created both offline and online server
+
+12/2/2021 - 12:55 AM
+*Database Connected
+*Database Online Function half 50%
+
+12/6/2021 - 5:27 AM
+was busy coding these recent days so i forgot the logs anyways.
+*Full functional db and create db
+*date time in
+
+>>To Do:
+ - Style the dbgrid.

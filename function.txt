@@ -1,0 +1,89 @@
+button function login
+
+C:\Users\ADMIN\source\repos\ITCfinals\x64\Debug
+CREATE TABLE syscommdb."+Workeridpassword+"
+( column_name1 data_type, column_name2 data_type, column_name3 data_type, .... )
+
+System::Drawing::Color::FromArgb(123, 0, 30)
+
+DELETE FROM `it1001`
+MMM d, yyyy / hh:mm tt
+
+133, 225, 115
+237,125,49
+123, 0, 30
+
+
+
+
+ITCfinals::WorkerForm wf;//Instantiates an object that calls our form - WorkerForm.
+
+
+	
+		//Function for login validation
+	
+			MySqlConnection^ con = gcnew MySqlConnection(constr);//Establishing a connection between our application and database.
+			MySqlCommand^ cmd = gcnew MySqlCommand("select firstname, password from syscommtable where firstname='" + usernametxtbox->Text + "' and password = '"+passwordtxtbox->Text+"'", con);
+			MySqlDataReader^ dr;
+			
+			//Will only run if MySql server data is running along with its table.
+			try {
+
+				con->Open(); //Opens our database
+				dr = cmd->ExecuteReader(); //Executes our command
+
+				while (dr->Read()) {
+
+					usercheck = dr["firstname"]->ToString();
+					passwordcheck = dr["password"]->ToString();
+
+				}
+
+
+				if (usernametxtbox->Text == usercheck && passwordtxtbox->Text == passwordcheck) {
+
+					ITCfinals::WorkerEmployeeForm wef(usernametxtbox->Text);
+					this->Hide();
+					wef.ShowDialog();
+					this->Show();
+
+				}
+
+				else {
+
+					if (usernametxtbox->Text == "admin" && passwordtxtbox->Text == "1234") {
+
+						this->Hide();
+						wf.ShowDialog();
+						this->Show();
+
+					}
+					else {
+
+						MessageBox::Show("Invalid username or password!", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+
+					}
+
+				}
+			}
+
+			//Will Run if MySql server data is not opened // this block of code will execute as a statement instead of an error displaying MySql is not connected.
+			catch (Exception^ specialcredentials) {
+
+				//Validates user input with predefined values as its condition
+					if (usernametxtbox->Text == "admin" && passwordtxtbox->Text == "1234") {
+
+						this->Hide();//Hides this form
+						wf.ShowDialog();//Then Shows the worker form
+						this->Show();//Pulls back this form
+					}
+
+					else {
+
+						MessageBox::Show("Invalid Username or Password", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+
+					}
+				
+				
+				
+			}	

@@ -1,0 +1,11 @@
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.vcxproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.SignInForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.vcxproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.WorkerForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.CreateUserForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\x64\Debug\SysComm.exe.config
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\SysComm.exe.config
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.vcxproj.CopyComplete
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.WorkerEmployeeForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Debug\ITCfinals.DeleteUserForm.resources

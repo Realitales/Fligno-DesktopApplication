@@ -1,0 +1,76 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30705.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6E9620C80 -allChunksReserved -il C:\\Users\\ADMIN\\AppData\\Local\\Temp\\_CL_2d4b88deast -typedil -f WorkerForm.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030705 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -AI C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\ -AI C:\\Program Files (x86)\\Windows Kits\\10\\References -AI C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\Facades\\ -Gil -D_MANAGED -D_M_CEE=001 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -D_DEBUG -D_UNICODE -DUNICODE -EHa -D_CPPUNWIND -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++14 -Yupch.h -Fpx64\\Debug\\SysComm.pch -Fox64\\Debug\\WorkerForm.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\mscorlib.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Data.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Drawing.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Windows.Forms.dll -FU C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\System.Xml.dll -analyze:projectdirectory C:\\Users\\ADMIN\\source\\repos\\ITCfinals\\ITCfinals -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\MixedRecommendedRules.ruleset -analyze:quiet -FC -errorreport:prompt -clr:nostdlib -clrver4.08.4420.0 -D__CLR_VER=40804420 -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/workerform.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b92608fcb418dd7d861e7fd5923239a2f7074bdc7727cee0a9c1646ed19d4c10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/pch.h"
+          },
+          "hashes": {
+            "sha-256": "2f914d739c11566c2be8cc5719463c954da2739fcfdf060b3fdbe542e6f8195a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/deleteuserform.h"
+          },
+          "hashes": {
+            "sha-256": "ecae4fad1554b45ba359852f87cfb3f43107f9fd35c83c1d2941ec06bb81c524"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/createuserform.h"
+          },
+          "hashes": {
+            "sha-256": "cbbba8e2f7d7143981eacbbe2ff0748a0afdf71c5ea63ad44e4e60e56cd7ae38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/workerform.h"
+          },
+          "hashes": {
+            "sha-256": "ccad04aa53bee54b9a6ef05d91ae49d5f09d547809e4b2ae990fb6c9d4579141"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/source/repos/itcfinals/itcfinals/signinform.h"
+          },
+          "hashes": {
+            "sha-256": "49058ee63aaa060b584149858ba31c3fd7e8c3367542e7f4abde4f210e72fd66"
+          }
+        }
+      ]
+    }
+  ]
+}

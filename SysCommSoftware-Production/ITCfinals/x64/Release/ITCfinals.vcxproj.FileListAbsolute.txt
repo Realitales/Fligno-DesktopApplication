@@ -1,0 +1,11 @@
+C:\Users\ADMIN\source\repos\ITCfinals\x64\Release\SysComm.exe.config
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.vcxproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\SysComm.exe.config
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.CreateUserForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.DeleteUserForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.SignInForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.WorkerEmployeeForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.WorkerForm.resources
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.vcxproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\ITCfinals\ITCfinals\x64\Release\ITCfinals.vcxproj.CopyComplete
