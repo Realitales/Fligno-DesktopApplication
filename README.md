@@ -1,4 +1,4 @@
-# Fligno Application - React JS / Firebase
+# Fligno Application - C++
 
 ![Design preview for the Desktop Application](./SyscommSoftware.png)
 
